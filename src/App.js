@@ -6,7 +6,7 @@ import ContactPage from './pages/ContactPage'
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className='App'>
 				<GlobalStyles />
 				<div className='nav'>
