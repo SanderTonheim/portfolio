@@ -1,6 +1,6 @@
 import { GlobalStyles } from './components/GlobalStyles'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Landingpage from './pages/LandingPage'
+import { LandingPage } from './pages/LandingPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 
@@ -23,7 +23,7 @@ function App() {
 					</ul>
 				</div>
 				<Routes>
-					<Route exact path='/' element={<Landingpage />}></Route>
+					<Route exact path='/' element={<LandingPage />}></Route>
 					<Route exact path='/about' element={<AboutPage />}></Route>
 					<Route exact path='/contact' element={<ContactPage />}></Route>
 				</Routes>
