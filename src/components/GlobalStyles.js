@@ -5,10 +5,12 @@ export const GlobalStyles = createGlobalStyle`
 * {
   padding: 0;
   margin: 0;
+	height: auto;
+	width: 100%;
 }
 
 body {
-	height: 100%;
+	height: auto;
   width: 100%;
 }
 
@@ -18,24 +20,24 @@ body {
 	width: 100%;
 	height: 5rem;
 	padding: 0px;
+	
 
 	ul {
-		padding: 0;
-		width: auto;
-		height: 100%;
+		padding: 0px;
+		width: inherit;
+		height: inherit;
 		list-style-type: none;
-		margin: 0;
 		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		padding-right: 1rem;
 	}
 	li {
 		padding: 0 1rem;
+	width: 3rem;
 	}
   a {
     color:#fff;
     text-decoration: none;
+		
+
   }
 }
 `

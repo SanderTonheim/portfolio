@@ -10,15 +10,15 @@ export const StyledContainer = styled.div`
 export const StyledHeroImg = styled(heroImg)`
 	display: flex;
 	flex-direction: row-reverse;
-	width: 100%;
+	max
+	-width: 100vw;
 	justify-content: space-between;
-	height: 52rem;
-	/* background-color: lightgray; */
-	margin: 0 auto;
+	height: auto;
+	background-color: lightgray;
 
 	img {
 		max-width: 50%;
-		min-height: 100%;
+		min-height: auto;
 		object-fit: fill;
 	}
 
@@ -38,16 +38,23 @@ export const StyledHeroImg = styled(heroImg)`
 
 export const StyledCard = styled(card)`
 	background-color: lightgrey;
-	height: 300px;
-	width: 400px;
+	height: 20rem;
+	max-width: 80%;
+	margin: 4rem auto;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 12rem;
 
-	p {
-		color: green;
+	.Text {
+		display: flex;
+		flex-direction: column;
+		width: 30rem;
 	}
 
 	img {
-		width: 200px;
-		height: 200px;
+		width: 10rem;
+		height: 20rem;
 	}
 `
 // export const StyledBtn = styled(btn)`

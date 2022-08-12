@@ -15,12 +15,13 @@ export const heroImg = ({ className }) => {
 		</div>
 	)
 }
-
 export const card = ({ className, Title, Text, Image }) => {
 	return (
 		<div className={className}>
-			<Headline2>{Title}</Headline2>
-			<p>{Text}</p>
+			<div className='Text'>
+				<Headline2>{Title}</Headline2>
+				<p>{Text}</p>
+			</div>
 			<img src={Image} alt='' />
 		</div>
 	)
