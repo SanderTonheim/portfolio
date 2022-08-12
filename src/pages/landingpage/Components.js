@@ -1,5 +1,5 @@
 import { Headline1, Headline2 } from '../../components/GlobalStyles'
-import HeroImg from './../../images/PortfolioPic1 (1).jpg'
+import HeroImg from './../../images/PortfolioPic1.jpg'
 
 export const heroImg = ({ className }) => {
 	return (
