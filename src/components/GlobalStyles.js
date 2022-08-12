@@ -1,16 +1,17 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
 
 
 
-body {
-  padding: 0px;
-  height: 100%;
-  width: 100%;
-  margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
+}
 
-  
+body {
+	height: 100%;
+  width: 100%;
 }
 
 .nav {
@@ -39,4 +40,9 @@ body {
     text-decoration: none;
   }
 }
+`
+export const Headline1 = styled.h1`
+	font-size: 5rem;
+	color: black;
+	text-align: center;
 `

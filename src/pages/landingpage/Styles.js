@@ -1,17 +1,32 @@
 import styled from 'styled-components'
-import { btn } from './Components'
+import { btn, heroImg } from './Components'
 
 export const StyledContainer = styled.div`
-	background-color: blue;
 	width: 100%;
-	height: auto;
+	height: 100%;
+	margin: 0px;
 `
 
+export const StyledHeroImg = styled(heroImg)`
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0%;
+	width: 100%;
+	justify-content: space-between;
+	max-height: 92vh;
 
-export const StyledImg = styled.img `
-	width: 50%;
-	height: auto;
+	img {
+		width: 50%;
+		max-height: 100%;
+	}
+
+	p {
+		font-size: x-large;
+		text-align: center;
+		padding: 3em 3em;
+	}
 `
+
 // export const StyledBtn = styled(btn)`
 // 	background-color: blue;
 // 	width: 90px;
