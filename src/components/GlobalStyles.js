@@ -2,8 +2,6 @@ import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -43,6 +41,11 @@ body {
 `
 export const Headline1 = styled.h1`
 	font-size: 5rem;
+	color: black;
+	text-align: center;
+`
+export const Headline2 = styled.h2`
+	font-size: 3rem;
 	color: black;
 	text-align: center;
 `

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { btn, heroImg } from './Components'
+import { heroImg, card } from './Components'
 
 export const StyledContainer = styled.div`
 	width: 100%;
@@ -10,23 +10,46 @@ export const StyledContainer = styled.div`
 export const StyledHeroImg = styled(heroImg)`
 	display: flex;
 	flex-direction: row-reverse;
-	margin: 0%;
 	width: 100%;
 	justify-content: space-between;
-	max-height: 92vh;
+	height: 52rem;
+	/* background-color: lightgray; */
+	margin: 0 auto;
 
 	img {
-		width: 50%;
-		max-height: 100%;
+		max-width: 50%;
+		min-height: 100%;
+		object-fit: fill;
 	}
 
 	p {
+		background-color: #d4d3d3;
 		font-size: x-large;
 		text-align: center;
-		padding: 3em 3em;
+		padding: 3rem 4rem;
+	}
+	.HeroText {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 8rem;
 	}
 `
 
+export const StyledCard = styled(card)`
+	background-color: lightgrey;
+	height: 300px;
+	width: 400px;
+
+	p {
+		color: green;
+	}
+
+	img {
+		width: 200px;
+		height: 200px;
+	}
+`
 // export const StyledBtn = styled(btn)`
 // 	background-color: blue;
 // 	width: 90px;

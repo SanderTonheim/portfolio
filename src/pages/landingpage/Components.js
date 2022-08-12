@@ -1,23 +1,30 @@
-import { Headline1 } from '../../components/GlobalStyles'
-import HeroImg from './../../images/Man.jpg'
+import { Headline1, Headline2 } from '../../components/GlobalStyles'
+import HeroImg from './../../images/PortfolioPic1 (1).jpg'
 
 export const heroImg = ({ className }) => {
 	return (
 		<div className={className}>
 			<img src={HeroImg}></img>
-			<div>
+			<div className='HeroText'>
 				<Headline1>Sander Tonheim</Headline1>
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
-					voluptatem cum ad non, neque officia velit fuga omnis autem, eum
-					optio. Magnam quaerat ullam aliquid perspiciatis, alias commodi
-					voluptatibus placeat.
+					Jeg er Sander og er soon to be frontend utvikler. Jeg er 24 år, har
+					fagbrev i IKT service faget og studerer ved Kodehode Bergen
 				</p>
 			</div>
 		</div>
 	)
 }
 
+export const card = ({ className, Title, Text, Image }) => {
+	return (
+		<div className={className}>
+			<Headline2>{Title}</Headline2>
+			<p>{Text}</p>
+			<img src={Image} alt='' />
+		</div>
+	)
+}
 // export const btn = ({className, Text}) => {
 // 	return (
 // 		<button className={className}>{Text}</button>

@@ -1,13 +1,16 @@
-import { Headline1 } from '../components/GlobalStyles'
-import { StyledHeroImg, StyledContainer } from './landingpage/Styles'
+import {
+	StyledHeroImg,
+	StyledContainer,
+	StyledCard,
+} from './landingpage/Styles'
+
+import CardPic1 from './../images/Man.jpg'
 
 export const LandingPage = () => {
 	return (
 		<StyledContainer>
 			<StyledHeroImg />
-			<div>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint est consequuntur libero necessitatibus nam porro odit rem sapiente totam labore beatae nisi deleniti officia cumque accusantium velit voluptatibus, error aspernatur.</p>
-			</div>
+			<StyledCard Title='Test' Text='lorum test' Image={CardPic1}  />
 		</StyledContainer>
 	)
 }
