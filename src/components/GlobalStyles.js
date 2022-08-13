@@ -3,15 +3,17 @@ import styled, { createGlobalStyle } from 'styled-components'
 export const GlobalStyles = createGlobalStyle`
 
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 	height: auto;
 	width: 100%;
 }
 
 body {
-	height: auto;
-  width: 100%;
+	height: auto 	;
+  max-width: 100%;
+	min-width:10rem;
+
 }
 
 .nav {
@@ -28,10 +30,14 @@ body {
 		height: inherit;
 		list-style-type: none;
 		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 	}
 	li {
-		padding: 0 1rem;
-	width: 3rem;
+		padding: 0 4rem;
+		width: 3rem;
+
+
 	}
   a {
     color:#fff;

@@ -2,42 +2,44 @@ import styled from 'styled-components'
 import { heroImg, card } from './Components'
 
 export const StyledContainer = styled.div`
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	margin: 0px;
 `
 
 export const StyledHeroImg = styled(heroImg)`
+	width: 100%;
+	height: 93vh;
 	display: flex;
 	flex-direction: row-reverse;
-	max
-	-width: 100vw;
 	justify-content: space-between;
-	height: auto;
-	background-color: lightgray;
 
 	img {
-		max-width: 50%;
-		min-height: auto;
-		object-fit: fill;
+		min-width: 50%;
+		height: 93vh;
 	}
 
-	p {
-		background-color: #d4d3d3;
+	.HeroText {
+		min-width: 50%;
+		height: auto;
+		background-color: #4e4e4e;
 		font-size: x-large;
 		text-align: center;
-		padding: 3rem 4rem;
-	}
-	.HeroText {
 		display: flex;
-		justify-content: center;
 		flex-direction: column;
-		gap: 8rem;
+		justify-content: space-around;
+	}
+
+	h1 {
+		color: white;
+	}
+	p {
+		color: white;
 	}
 `
 
 export const StyledCard = styled(card)`
-	background-color: lightgrey;
+	background-color: #4e4e4e;
 	height: 20rem;
 	max-width: 80%;
 	margin: 4rem auto;
@@ -57,8 +59,3 @@ export const StyledCard = styled(card)`
 		height: 20rem;
 	}
 `
-// export const StyledBtn = styled(btn)`
-// 	background-color: blue;
-// 	width: 90px;
-// 	height: 100px;
-// `
