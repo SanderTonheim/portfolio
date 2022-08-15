@@ -4,7 +4,7 @@ import HeroImg from './../../images/PortfolioPic1.jpg'
 export const heroImg = ({ className }) => {
 	return (
 		<div className={className}>
-			<img src={HeroImg}></img>
+			<img src={HeroImg} alt='Pic' />
 			<div className='HeroText'>
 				<Headline1>Sander Tonheim</Headline1>
 				<p>
@@ -19,12 +19,13 @@ export const heroImg = ({ className }) => {
 		</div>
 	)
 }
-export const card = ({ className, Title, Text, Image }) => {
+export const card = ({ className, Title, Text, Image, Link, LinkText }) => {
 	return (
 		<div className={className}>
 			<div className='Text'>
 				<Headline2>{Title}</Headline2>
 				<p>{Text}</p>
+				<a href={Link}>{LinkText}</a>
 			</div>
 			<div className='CardPic'>
 				<img src={Image} alt='' />
@@ -32,6 +33,7 @@ export const card = ({ className, Title, Text, Image }) => {
 		</div>
 	)
 }
+
 // export const btn = ({className, Text}) => {
 // 	return (
 // 		<button className={className}>{Text}</button>

@@ -13,10 +13,11 @@ export const GlobalStyles = createGlobalStyle`
 body {
 	height: 100%;
   max-width: 100%;
+	background-color: #0e0d0d;
 }
 
 .nav {
-  background-color: #333;
+  background-color: #1b1b1e;
 	color: #fff;
 	width: 100%;
 	height: 5rem;

@@ -30,10 +30,11 @@ export const StyledHeroImg = styled(heroImg)`
 		justify-content: space-around;
 	}
 
-	h1, p {
-	display:flex;
-	flex-basis:content;
-	
+	h1,
+	p {
+		display: flex;
+		flex-basis: content;
+
 		color: white;
 	}
 `
@@ -64,6 +65,10 @@ export const StyledCard = styled(card)`
 		display: flex;
 		font-size: larger;
 		align-self: center;
+	}
+
+	a {
+		color: black;
 	}
 
 	.CardPic {
