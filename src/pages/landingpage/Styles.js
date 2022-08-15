@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { heroImg, card } from './Components'
+import { heroImg, card, experienceContainer } from './Components'
 
 export const StyledContainer = styled.div`
 	width: 100%;
@@ -82,4 +82,11 @@ export const StyledCard = styled(card)`
 		min-height: 100%;
 		max-height: 100%;
 	}
+`
+
+export const StyledExperienceContainer = styled(experienceContainer)`
+	max-width: 80%;
+	max-height: fit-content;
+	background-color: #fff;
+	margin: 4rem auto;
 `

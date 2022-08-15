@@ -2,6 +2,7 @@ import {
 	StyledHeroImg,
 	StyledContainer,
 	StyledCard,
+	StyledExperienceContainer,
 } from './landingpage/Styles'
 
 import PokemonPic from './../images/PokemonPic.jpg'
@@ -13,6 +14,10 @@ export const LandingPage = () => {
 	return (
 		<StyledContainer>
 			<StyledHeroImg />
+
+			<StyledExperienceContainer>
+				<p>fdsfsfsd</p>
+			</StyledExperienceContainer>
 
 			<StyledCard
 				Title='Pokèmon Fetch'
@@ -31,7 +36,7 @@ export const LandingPage = () => {
 				Image={tipCalc}
 			/>
 			<StyledCard
-				Title='Fritids prosjekt'
+				Title='Fritids prosjket'
 				Text='På fritiden min liker jeg å holde på med egene prosjekter. For tiden holder jeg på å designet og lage en time prosent app for min fetter. Følg linken for å se designet i Figma.'
 				LinkText='Figma Design'
 				Link='https://www.figma.com/proto/tCr9iEYObvQSjhsoZzfuUG/Utkast-Foks-AS?node-id=526%3A109&scaling=scale-down&page-id=390%3A137&starting-point-node-id=526%3A109'
