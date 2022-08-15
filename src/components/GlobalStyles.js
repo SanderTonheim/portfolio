@@ -52,7 +52,7 @@ body {
 }
 `
 export const Headline1 = styled.h1`
-font-size: 4rem;
+	font-size: 4rem;
 	color: black;
 	text-align: center;
 `
@@ -64,22 +64,14 @@ export const Headline2 = styled.h2`
 export const StyledFooter = styled(Footer)`
 	background-color: #1b1b1e;
 	color: #fff;
-	width: 100%;
+	max-width: 100%;
 	height: 4rem;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: space-around;
 
-	/* background-color: #333;
-	color: #fff;
-	max-width: fit-content;
-	height: 7rem;
-	display: flex;
-	justify-content: center;
-	justify-content: space-around; */
-
-	/* h4,
+	h4,
 	p {
-		align-self: center;
-	} */
+		flex-basis: content;
+	}
 `
