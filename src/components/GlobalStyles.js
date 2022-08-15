@@ -6,17 +6,23 @@ export const GlobalStyles = createGlobalStyle`
 * {
   padding: 0px;
   margin: 0px;
-	height: auto;
 	width: 100%;
+	height: auto;
 }
 
 body {
-	height: auto;
+	max-height: auto;
   max-width: 100%;
 	margin: 0 auto;
 	background-color: #4e4e4e;
 	font-family:  serif, Arial, Helvetica, sans-serif;
+	overflow-x: auto;
 
+}
+
+img {
+	max-width: 60rem;
+	max-height: 60rem;
 }
 
 .nav > * {

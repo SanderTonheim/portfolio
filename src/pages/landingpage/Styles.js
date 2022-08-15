@@ -2,12 +2,13 @@ import styled from 'styled-components'
 import { heroImg, card, experienceContainer } from './Components'
 
 export const StyledContainer = styled.div`
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 `
 
 export const StyledHeroImg = styled(heroImg)`
 	max-width: 100%;
+	width: 60rem;
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -25,16 +26,16 @@ export const StyledHeroImg = styled(heroImg)`
 	}
 
 	img {
-		max-width: min-content;
+		max-width: 40rem;
 		height: fit-content;
 	}
 `
 export const StyledExperienceContainer = styled(experienceContainer)`
-	height: auto;
+	max-width: 60rem;
+	/* height: fit-content; */
+	max-height: 30rem;
 	display: flex;
 	flex-wrap: wrap;
-	max-width: fit-content;
-	height: fit-content;
 	margin: 3rem 0.5rem;
 	text-align: center;
 	background-color: #fff;
@@ -51,10 +52,10 @@ export const StyledCard = styled(card)`
 	justify-content: center;
 	flex-basis: content;
 	background-color: #fff;
-	max-width: fit-content;
+	max-width: 60rem;
 	margin: 0 0.5rem;
 	margin-bottom: 3rem;
-	padding: 0;
+	padding: 0rem;
 
 	.Text {
 		text-align: center;
@@ -66,7 +67,7 @@ export const StyledCard = styled(card)`
 		margin-top: 1rem;
 	}
 	.CardPic {
-		max-width: 100%;
+		max-width: 60rem;
 		max-height: auto;
 		padding: 1rem 0.5rem;
 	}
