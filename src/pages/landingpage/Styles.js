@@ -3,104 +3,75 @@ import { heroImg, card, experienceContainer } from './Components'
 
 export const StyledContainer = styled.div`
 	width: 100%;
-	height: 10%;
-	margin: 0px;
+	height: auto;
 `
 
 export const StyledHeroImg = styled(heroImg)`
-	width: 100%;
-	height: 93vh;
+	max-width: 100%;
+	height: auto;
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
 
-	img {
-		max-width: 40%;
-		height: 93vh;
-	}
-
-	.HeroText {
-		max-width: 100%;
-		height: 100%;
-		background-color: #4e4e4e;
-		font-size: x-large;
+	.HeroText > * {
+		max-width: fit-content;
+		height: fit-content;
+		margin: 3rem 1.5rem;
+		background-color: #fff;
 		text-align: center;
 		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
+		flex-wrap: wrap;
+		/* color: white; */
 	}
 
-	h1,
-	p {
-		display: flex;
-		flex-basis: content;
+	img {
+		max-width: min-content;
+		height: fit-content;
+	}
+`
+export const StyledExperienceContainer = styled(experienceContainer)`
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: fit-content;
+	height: fit-content;
+	margin: 3rem 0.5rem;
+	text-align: center;
+	background-color: #fff;
 
-		color: white;
+	p {
+		margin: 3rem 0.5rem;
 	}
 `
 
 export const StyledCard = styled(card)`
 	display: flex;
-	margin: 4rem auto;
-	padding: 2rem;
-	background-color: #4e4e4e;
-	height: 20rem;
-	max-width: 80%;
-	justify-content: space-evenly;
-	gap: 2rem;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-basis: content;
+	background-color: #fff;
+	max-width: fit-content;
+	margin: 0 0.5rem;
+	margin-bottom: 3rem;
+	padding: 0;
 
 	.Text {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		max-width: 50%;
-		flex-basis: 50%;
-		background-color: #fff;
 		text-align: center;
-		padding: 0 1rem;
+		max-width: 100%;
+		margin: 0rem 0.5rem;
+		background-color: #fff;
 	}
-
 	p {
-		max-width: 25rem;
-		display: flex;
-		font-size: larger;
-		align-self: center;
+		margin-top: 1rem;
+	}
+	.CardPic {
+		max-width: 100%;
+		max-height: auto;
+		padding: 1rem 0.5rem;
 	}
 
 	a {
 		color: black;
-	}
-
-	.CardPic {
-		max-width: 50%;
-		max-height: 100%;
-		object-fit: fill;
-	}
-
-	img {
-		max-width: 100%;
-		min-height: 100%;
-		max-height: 100%;
-	}
-`
-
-export const StyledExperienceContainer = styled(experienceContainer)`
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: column;
-	max-width: 80%;
-	height: 20rem;
-	background-color: #4e4e4e;
-	margin: 4rem auto;
-	padding: 2rem;
-
-	h2 {
-		font-size: 5rem;
-	}
-
-	p {
-		max-width: 55%;
-		font-size: larger;
-		align-self: center;
 	}
 `
