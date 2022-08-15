@@ -97,12 +97,10 @@ export const StyledExperienceContainer = styled(experienceContainer)`
 	h2 {
 		font-size: 5rem;
 	}
-	
+
 	p {
 		max-width: 55%;
 		font-size: larger;
 		align-self: center;
-
 	}
-	
 `
