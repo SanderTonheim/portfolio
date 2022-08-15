@@ -56,6 +56,7 @@ export const StyledCard = styled(card)`
 		flex-basis: 50%;
 		background-color: #fff;
 		text-align: center;
+		padding: 0 1rem;
 	}
 
 	p {
@@ -75,5 +76,6 @@ export const StyledCard = styled(card)`
 		max-width: 100%;
 		min-height: 100%;
 		max-height: 100%;
+		
 	}
 `
