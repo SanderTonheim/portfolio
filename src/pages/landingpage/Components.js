@@ -9,7 +9,11 @@ export const heroImg = ({ className }) => {
 				<Headline1>Sander Tonheim</Headline1>
 				<p>
 					Jeg er Sander og er soon to be frontend utvikler. Jeg er 24 år, har
-					fagbrev i IKT service faget og studerer ved Kodehode Bergen Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nihil quos autem harum rem fuga voluptatem, doloribus, perferendis nam quasi expedita quaerat optio dolore consequuntur est facilis fugiat dicta eos.
+					fagbrev i IKT service faget og studerer ved Kodehode Bergen Lorem
+					ipsum dolor sit amet consectetur adipisicing elit. Doloremque nihil
+					quos autem harum rem fuga voluptatem, doloribus, perferendis nam quasi
+					expedita quaerat optio dolore consequuntur est facilis fugiat dicta
+					eos.
 				</p>
 			</div>
 		</div>
@@ -22,7 +26,9 @@ export const card = ({ className, Title, Text, Image }) => {
 				<Headline2>{Title}</Headline2>
 				<p>{Text}</p>
 			</div>
-			<img src={Image} alt='' />
+			<div className='CardPic'>
+				<img src={Image} alt='' />
+			</div>
 		</div>
 	)
 }
@@ -33,6 +39,6 @@ export const card = ({ className, Title, Text, Image }) => {
 // }
 
 // // export const StyledBtn = styled(btn)`
-	// 	background-color: blue;
-	// 	width: 90px;
-	// 	height: 100px;` 
+// 	background-color: blue;
+// 	width: 90px;
+// 	height: 100px;`

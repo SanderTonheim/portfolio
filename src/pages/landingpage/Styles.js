@@ -39,23 +39,41 @@ export const StyledHeroImg = styled(heroImg)`
 `
 
 export const StyledCard = styled(card)`
+	display: flex;
+	margin: 4rem auto;
+	padding: 2rem;
 	background-color: #4e4e4e;
 	height: 20rem;
 	max-width: 80%;
-	margin: 4rem auto;
-	padding: 1rem;
-	display: flex;
-	justify-content: space-between;
-	gap: 12rem;
+	justify-content: space-evenly;
+	gap: 2rem;
 
 	.Text {
 		display: flex;
 		flex-direction: column;
-		width: 30rem;
+		justify-content: space-evenly;
+		max-width: 50%;
+		flex-basis: 50%;
+		background-color: #fff;
+		text-align: center;
+	}
+
+	p {
+		max-width: 25rem;
+		display: flex;
+		font-size: larger;
+		align-self: center;
+	}
+
+	.CardPic {
+		max-width: 50%;
+		max-height: 100%;
+		object-fit: fill;
 	}
 
 	img {
-		width: 10rem;
-		height: 20rem;
+		max-width: 100%;
+		min-height: 100%;
+		max-height: 100%;
 	}
 `
