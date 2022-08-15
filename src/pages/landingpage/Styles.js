@@ -3,25 +3,25 @@ import { heroImg, card } from './Components'
 
 export const StyledContainer = styled.div`
 	width: 100%;
-	height: 100%;
+	height: 10%;
 	margin: 0px;
 `
 
 export const StyledHeroImg = styled(heroImg)`
 	width: 100%;
-	height: 93rem;
+	height: 93vh;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 
 	img {
-		min-width: 50%;
+		max-width: 40%;
 		height: 93vh;
 	}
 
 	.HeroText {
-		min-width: 50%;
-		height: auto;
+		max-width: 100%;
+		height: 100%;
 		background-color: #4e4e4e;
 		font-size: x-large;
 		text-align: center;
@@ -30,10 +30,10 @@ export const StyledHeroImg = styled(heroImg)`
 		justify-content: space-around;
 	}
 
-	h1 {
-		color: white;
-	}
-	p {
+	h1, p {
+	display:flex;
+	flex-basis:content;
+	
 		color: white;
 	}
 `
@@ -76,6 +76,5 @@ export const StyledCard = styled(card)`
 		max-width: 100%;
 		min-height: 100%;
 		max-height: 100%;
-		
 	}
 `
