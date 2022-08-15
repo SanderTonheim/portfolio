@@ -14,6 +14,8 @@ body {
 	height: auto;
   max-width: 100%;
 	background-color: #0e0d0d;
+	font-family:  serif, Arial, Helvetica, sans-serif;
+
 }
 
 .nav {
@@ -66,7 +68,6 @@ export const StyledFooter = styled(Footer)`
 	justify-content: center;
 	justify-content: space-around;
 
-	
 	h4,
 	p {
 		align-self: center;

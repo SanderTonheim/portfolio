@@ -85,8 +85,24 @@ export const StyledCard = styled(card)`
 `
 
 export const StyledExperienceContainer = styled(experienceContainer)`
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
 	max-width: 80%;
-	max-height: fit-content;
-	background-color: #fff;
+	height: 20rem;
+	background-color: #4e4e4e;
 	margin: 4rem auto;
+	padding: 2rem;
+
+	h2 {
+		font-size: 5rem;
+	}
+	
+	p {
+		max-width: 55%;
+		font-size: larger;
+		align-self: center;
+
+	}
+	
 `

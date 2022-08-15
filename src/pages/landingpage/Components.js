@@ -23,7 +23,7 @@ export const card = ({ className, Title, Text, Image, Link, LinkText }) => {
 	return (
 		<div className={className}>
 			<div className='Text'>
-				<Headline2>{Title}</Headline2>
+				<h2>{Title}</h2>
 				<p>{Text}</p>
 				<a href={Link}>{LinkText}</a>
 			</div>
