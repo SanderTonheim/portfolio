@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
+import { Footer } from './Footer'
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -10,10 +11,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body {
-	height: auto 	;
+	height: 100%;
   max-width: 100%;
-	min-width:10rem;
-
 }
 
 .nav {
@@ -26,7 +25,7 @@ body {
 
 	ul {
 		padding: 0px;
-		width: inherit;
+		width: 100%;
 		height: inherit;
 		list-style-type: none;
 		display: flex;
@@ -56,4 +55,20 @@ export const Headline2 = styled.h2`
 	font-size: 3rem;
 	color: black;
 	text-align: center;
+`
+export const StyledFooter = styled(Footer)`
+	background-color: #333;
+	color: #fff;
+	max-width: 100%;
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+	
+	h4,
+	p {
+		align-self: center;
+		flex-basis: content;
+	}
 `

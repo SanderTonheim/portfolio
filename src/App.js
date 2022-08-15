@@ -1,4 +1,4 @@
-import { GlobalStyles } from './components/GlobalStyles'
+import { GlobalStyles, StyledFooter } from './components/GlobalStyles'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { LandingPage } from './pages/LandingPage'
 import AboutPage from './pages/AboutPage'
@@ -28,6 +28,7 @@ function App() {
 					<Route exact path='/contact' element={<ContactPage />}></Route>
 				</Routes>
 			</div>
+			<StyledFooter />
 		</Router>
 	)
 }

@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import { heroImg, card } from './Components'
 
 export const StyledContainer = styled.div`
-	width: 100vw;
+	width: 100%;
 	height: 100%;
 	margin: 0px;
 `
 
 export const StyledHeroImg = styled(heroImg)`
 	width: 100%;
-	height: 93vh;
+	height: 93rem;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
