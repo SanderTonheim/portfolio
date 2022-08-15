@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.3936415e.js",
+    "main.js": "/portfolio/static/js/main.39af5731.js",
     "static/media/PokemonPic.jpg": "/portfolio/static/media/PokemonPic.2591ef3860448e1d1cd1.jpg",
     "static/media/ToDo.png": "/portfolio/static/media/ToDo.9b9d98b9de1d2e5eb803.png",
     "static/media/PortfolioPic1.jpg": "/portfolio/static/media/PortfolioPic1.3a2123908b6385910793.jpg",
     "static/media/TipCalc.png": "/portfolio/static/media/TipCalc.38f5a875a454251a95f2.png",
     "static/media/FigmaLogo.png": "/portfolio/static/media/FigmaLogo.fddfecd6a6ac5a803a78.png",
     "index.html": "/portfolio/index.html",
-    "main.3936415e.js.map": "/portfolio/static/js/main.3936415e.js.map"
+    "main.39af5731.js.map": "/portfolio/static/js/main.39af5731.js.map"
   },
   "entrypoints": [
-    "static/js/main.3936415e.js"
+    "static/js/main.39af5731.js"
   ]
 }
