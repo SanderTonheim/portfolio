@@ -42,11 +42,9 @@ img {
 	
 	}
   a {
-
     color:#fff;
     text-decoration: none;
 		padding: 1rem 2rem;
-
   }
 
 	a:hover {
