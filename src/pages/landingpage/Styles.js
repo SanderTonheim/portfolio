@@ -26,13 +26,12 @@ export const StyledHeroImg = styled(heroImg)`
 	}
 
 	img {
-		max-width: 40rem;
-		height: fit-content;
+		max-width: 100;
+		height: auto;
 	}
 `
 export const StyledExperienceContainer = styled(experienceContainer)`
 	max-width: 60rem;
-	/* height: fit-content; */
 	max-height: 30rem;
 	display: flex;
 	flex-wrap: wrap;
@@ -59,17 +58,15 @@ export const StyledCard = styled(card)`
 
 	.Text {
 		text-align: center;
-		max-width: 100%;
-		margin: 0rem 0.5rem;
+		max-width: 90%;
 		background-color: #fff;
 	}
 	p {
 		margin-top: 1rem;
 	}
 	.CardPic {
-		max-width: 60rem;
-		max-height: auto;
-		padding: 1rem 0.5rem;
+		width: 90%;
+		max-height: 60rem;
 	}
 
 	a {

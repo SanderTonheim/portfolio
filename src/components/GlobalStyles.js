@@ -3,57 +3,54 @@ import { Footer } from './Footer'
 
 export const GlobalStyles = createGlobalStyle`
 
-* {
-  padding: 0px;
-  margin: 0px;
+
+
+html > *  {
 	width: 100%;
-	height: auto;
+	max-height: 100%;
+	padding: 0%;
+	font-family:  serif, Arial, Helvetica, sans-serif;
 }
 
 body {
-	max-height: auto;
-  max-width: 100%;
-	margin: 0 auto;
+	margin: 0px;
 	background-color: #4e4e4e;
-	font-family:  serif, Arial, Helvetica, sans-serif;
-	overflow-x: auto;
-
 }
 
 img {
-	max-width: 60rem;
-	max-height: 60rem;
+	max-width: 100%;
+	height: auto;
 }
 
-.nav > * {
+.nav > ul {
   background-color: #1b1b1e;
 	color: #fff;
 	max-width: 100%;
-	height: 5rem;
+	min-height: 5rem;
 	padding: 0px;
+	margin: 0%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	list-style-type: none;
-	justify-content: space-around;
-	ul {
-		padding: 0px;
-		height: 5rem;
-		
-	}
+	align-items: center;
+	justify-content: space-evenly;
+	
 	li {
-	flex-basis: 01rem;
-	text-align: center;
+		justify-content:center;
+		text-align: center;
+		width: 8rem;
+
 	
 	}
   a {
+
     color:#fff;
     text-decoration: none;
-		padding: 4px 20px;
+		padding: 1rem 2rem;
+
   }
 
 	a:hover {
-		border: solid white 4px;
+		border: 1px solid white;
 	}
 }
 `
