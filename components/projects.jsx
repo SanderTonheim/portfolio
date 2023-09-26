@@ -45,6 +45,7 @@ export const Card = ({ image, link, projectName, projectFor }) => {
 					<Image
 						src={image}
 						className=' m-auto'
+						alt='logo'
 					/>
 				</div>
 				<div className='bg-[#1a1a1a] h-20 px-3  flex flex-col justify-center '>
