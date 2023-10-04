@@ -55,8 +55,8 @@ export default function Navbar() {
 				<div className=' bg-white flex justify-center fixed w-full md:hidden'>
 					<ul className='flex flex-col items-start w-fit gap-1 py-2 '>
 						<li>Hjem</li>
-						<li>Forside</li>
-						<li>Medlemsliste</li>
+						<li>Prosjekter</li>
+						<li>Om</li>
 					</ul>
 				</div>
 			) : null}
