@@ -7,12 +7,7 @@ import jobbjakt from '@/assets/jobbjakt.svg'
 
 export default function Projects() {
 	return (
-		<section
-			className='bg-[#232323] py-10 px-4 flex flex-col gap-6 md:items-center '
-			style={{
-				backgroundImage:
-					" url('https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=2000&t=st=1696460565~exp=1696461165~hmac=206664bd1fc644edb3e07164c674501cf0903329d36533fed7f6d6e625654493')",
-			}}>
+		<section className='bg-[url("../assets/bg.jpg")] py-10 px-4 flex flex-col gap-6 md:items-center '>
 			<h2 className='text-[#8a8a8a] md:max-w-2xl md:w-full'>Prosjekter</h2>
 			<div className='flex flex-wrap gap-8 justify-center '>
 				<Card
