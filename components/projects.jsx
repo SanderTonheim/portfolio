@@ -7,33 +7,35 @@ import jobbjakt from '@/assets/jobbjakt.svg'
 
 export default function Projects() {
 	return (
-		<section className='bg-[url("../assets/bg.jpg")] py-10 px-4 flex flex-col gap-6 md:items-center '>
-			<h2 className='text-[#8a8a8a] md:max-w-2xl md:w-full'>Prosjekter</h2>
-			<div className='flex flex-wrap gap-8 justify-center '>
-				<Card
-					image={bfnr}
-					link={'https://medlemsliste.bfnr.no/'}
-					projectName={'Bedriftregister'}
-					projectFor={'Bjørnafjorden Næringsråd'}
-				/>
-				<Card
-					image={foks}
-					link={'https://www.obligatorisk.no/'}
-					projectName={'Oppmøteprosent kalkulator'}
-					projectFor={'Foks AS'}
-				/>
-				<Card
-					image={hawii}
-					link={'https://www.hawii.no/bedrift'}
-					projectName={'Hawii Analyse'}
-					projectFor={'Kodeverket'}
-				/>
-				<Card
-					image={jobbjakt}
-					link={'https://www.jobbjakt.no/'}
-					projectName={'Jobbjakt hjemmeside'}
-					projectFor={'Kodeverket'}
-				/>
+		<section className='CONTAINER bg-[url("../assets/bg.jpg")] '>
+			<div className='CONTENT py-10 px-4 flex flex-col gap-6 md:items-center '>
+				<h2 className='text-[#8a8a8a] md:max-w-2xl md:w-full xl:max-w-7xl'>Prosjekter</h2>
+				<div className='CARDS flex flex-wrap gap-8 justify-center xl:max-w-7xl xl:justify-start'>
+					<Card
+						image={bfnr}
+						link={'https://medlemsliste.bfnr.no/'}
+						projectName={'Bedriftregister'}
+						projectFor={'Bjørnafjorden Næringsråd'}
+					/>
+					<Card
+						image={foks}
+						link={'https://www.obligatorisk.no/'}
+						projectName={'Oppmøteprosent kalkulator'}
+						projectFor={'Foks AS'}
+					/>
+					<Card
+						image={hawii}
+						link={'https://www.hawii.no/bedrift'}
+						projectName={'Hawii Analyse'}
+						projectFor={'Kodeverket'}
+					/>
+					<Card
+						image={jobbjakt}
+						link={'https://www.jobbjakt.no/'}
+						projectName={'Jobbjakt hjemmeside'}
+						projectFor={'Kodeverket'}
+					/>
+				</div>
 			</div>
 		</section>
 	)
@@ -41,9 +43,9 @@ export default function Projects() {
 
 export const Card = ({ image, link, projectName, projectFor }) => {
 	return (
-		<div className=' min-w-[250px] max-w-xs w-full flex flex-1'>
+		<div className=' min-w-[250px] max-w-[288px]   '>
 			<Link href={link}>
-				<div className='h-60 flex justify-center items-center p-7 bg-neutral-500/5 backdrop-blur-lg'>
+				<div className='h-60 flex justify-center items-center p-7 bg-neutral-500/5 backdrop-blur-md'>
 					<Image
 						src={image}
 						className=' m-auto'
