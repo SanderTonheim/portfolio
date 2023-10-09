@@ -27,7 +27,7 @@ export default function Navbar() {
 
 	return (
 		<nav className=' h-fit sticky bg-[#010101]'>
-			<div className='flex justify-between items-center px-3 py-4 max-w-7xl mx-auto'>
+			<div className='flex justify-between items-center px-6 py-4 max-w-7xl mx-auto xl:px-0'>
 				<Image
 					src={logo}
 					className='w-9'
