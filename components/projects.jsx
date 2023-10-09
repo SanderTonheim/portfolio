@@ -45,7 +45,7 @@ export const Card = ({ image, link, projectName, projectFor }) => {
 	return (
 		<div className=' min-w-[250px] max-w-[288px]   '>
 			<Link href={link}>
-				<div className='h-60 flex justify-center items-center p-7 bg-neutral-500/5 backdrop-blur-md'>
+				<div className='h-60 flex justify-center items-center p-7 bg-[#292929]/5 backdrop-blur-[6px]'>
 					<Image
 						src={image}
 						className=' m-auto'
