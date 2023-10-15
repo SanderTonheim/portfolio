@@ -4,9 +4,8 @@ import animation from "@/assets/animations/about.json";
 import test from "@/assets/animations/test-animation.json";
 import { useRef } from "react";
 export default function About() {
-  const animationRef = useRef();
   return (
-    <section className=" flex items-center justify-center overflow-hidden bg-[#1A1A1A] text-white  ">
+    <section className=" flex items-center justify-center overflow-hidden bg-[#1A1A1A] text-white h-64 ">
       <Lottie
         animationData={test}
         className=" relative flex  items-center justify-center max-w-sm blur-sm"
