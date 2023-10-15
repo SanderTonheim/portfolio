@@ -16,7 +16,7 @@ export default function About() {
         className=" relative flex max-w-md items-center  justify-center blur-sm"
         loop={true}
       />
-      <p className=" absolute z-20 max-w-md px-10 md:p-0 ">
+      <p className=" absolute z-20 max-w-md px-10 md:p-0 text-center">
         Mitt navn er Sander. Jeg er en front-end utvikler fra Bergen. Målet mitt
         er å bidra til en <strong>bedre og lettere fremtid</strong> med hjelp av
         dagens teknologi.
