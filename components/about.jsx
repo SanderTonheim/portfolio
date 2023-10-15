@@ -9,11 +9,7 @@ export default function About() {
     <section className=" flex items-center justify-center overflow-hidden bg-[#1A1A1A] text-white  ">
       <Lottie
         animationData={test}
-        // lottieRef={animationRef}
-        // onComplete={() => {
-        //   animationRef.current?.goToAndPlay(20, true);
-        // }}
-        className=" relative flex max-w-md items-center  justify-center blur-sm"
+        className=" relative flex  items-center justify-center max-w-sm blur-sm"
         loop={true}
       />
       <p className=" absolute z-20 max-w-md px-10 md:p-0 text-center">
