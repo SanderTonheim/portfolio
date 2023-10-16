@@ -9,7 +9,7 @@ export default function Header() {
         <h1 className="flex w-full justify-end xl:-ml-20 xl:-mt-5">Tonheim</h1>
       </div>
 
-      <Image src={image} className="w-80 xl:-mt-20" />
-    </section>
+        <Image src={image} className="relative z-10 w-80 xl:-mt-20" />
+      </section>
   );
 }
