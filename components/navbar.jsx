@@ -49,33 +49,3 @@ export default function Navbar() {
     </>
   );
 }
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <nav className=" sticky left-0 top-0 z-20 h-fit bg-[#010101]">
-//       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 xl:px-0">
-//         <div className="w-9">
-//         </div>
-//       </div>
-//       <ul
-//         className={
-//           open
-//             ? " animate-flip-down "
-//             : " animate-flip-up  " +
-//               "relative left-0 top-0 z-50 flex w-full flex-col items-center bg-white "
-//         }
-//       >
-//         <li>Hjem</li>
-//         <li>Prosjekter</li>
-//         <li>Om</li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
-// {
-//   /* <ul className="hidden md:flex md:w-fit md:items-start md:gap-4 md:py-2 ">
-//     <li>Hjem</li>
-//     <li>Forside</li>
-//     <li>Medlemsliste</li>
-//   </ul> */
