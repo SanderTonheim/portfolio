@@ -12,8 +12,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="no" className={inter.className}>
-      <body className="flex min-h-screen flex-col justify-between overflow-hidden">
+    <html lang="no" className={`  ${inter.className} overflow-x-hidden`}>
+      <body className="flex min-h-screen flex-col justify-between overflow-x-hidden ">
         <Navbar />
         <main className="flex flex-grow flex-col bg-[#111111]">{children}</main>
         <Footer />
