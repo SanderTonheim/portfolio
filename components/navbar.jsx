@@ -35,9 +35,7 @@ export default function Navbar() {
           </div>
           <ul
             className={`LIST flex flex-col items-center justify-center gap-10 self-center text-xl font-bold ${
-              showSidebar
-                ? "animate-fade-down animate-delay-300"
-                : "animate-fade-up"
+              showSidebar ? "animate-fade-down animate-delay-300" : ""
             }`}
           >
             <li>Topp</li>
