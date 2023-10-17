@@ -8,7 +8,7 @@ export default function About() {
     <section className=" flex items-center justify-center overflow-hidden bg-[#1A1A1A] text-white h-64 ">
       <Lottie
         animationData={test}
-        className=" relative flex  items-center justify-center max-w-sm blur-sm"
+        className=" relative flex  max-w-sm items-center justify-center blur-sm"
         loop={true}
       />
       <p className=" absolute z-20 max-w-md px-10 md:p-0 text-center">
