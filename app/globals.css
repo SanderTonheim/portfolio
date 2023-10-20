@@ -11,3 +11,7 @@
   background-clip: text;
   display: inline-block;
 }
+
+.HEADER-BACKGROUND {
+  background: linear-gradient(to top, #161616, black);
+}
