@@ -11,7 +11,7 @@ export default function Projects() {
         <h2 className="text-[#8a8a8a] md:w-full md:max-w-2xl xl:max-w-7xl">
           Prosjekter
         </h2>
-        <div className="CARDS flex animate-fade-up flex-wrap justify-center gap-8 xl:max-w-7xl xl:justify-start">
+        <div className="CARDS flex flex-wrap justify-center gap-8 xl:max-w-7xl xl:justify-start">
           <Card
             image={bfnr}
             link={"https://medlemsliste.bfnr.no/"}
