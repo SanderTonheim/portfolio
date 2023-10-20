@@ -9,21 +9,18 @@ export const Card = ({ image, link, projectName, projectFor }) => {
   const isVisible = useIsVisible(ref);
 
   return (
-    <div
+    <Link
       ref={ref}
-      className={
-        isVisible ? "min-w-[250px] max-w-[288px] animate-fade-down" : ""
-      }
+      href={link}
+      className={isVisible ? "  animate-fade-down backdrop-blur-md" : ""}
     >
-      <Link href={link}>
-        <div className="flex h-60 items-center justify-center bg-[#292929]/5 p-7 backdrop-blur-[6px]">
-          <Image src={image} className=" m-auto" alt="logo" />
-        </div>
-        <div className="flex h-20 flex-col  justify-center bg-[#1a1a1a] px-3 ">
-          <p className="text-white">{projectName}</p>
-          <p className="text-white opacity-50">{projectFor}</p>
-        </div>
-      </Link>
-    </div>
+      <div className="flex h-60 min-w-[250px] max-w-[288px] items-center justify-center bg-[#222222]/40 p-7 ">
+        <Image src={image} className=" m-auto  " alt="logo" />
+      </div>
+      <div className="flex h-20 flex-col  justify-center  bg-[#111111] px-3 ">
+        <p className="text-white">{projectName}</p>
+        <p className="text-white opacity-50">{projectFor}</p>
+      </div>
+    </Link>
   );
 };
