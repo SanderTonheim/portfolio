@@ -7,11 +7,11 @@ import { Card } from "./card";
 export default function Projects() {
   return (
     <section className='CONTAINER bg-[url("../assets/bg.jpg")] '>
-      <div className="CONTENT flex flex-col gap-6 px-4 py-10 md:items-center ">
-        <h2 className="text-[#8a8a8a] md:w-full md:max-w-2xl xl:max-w-7xl">
-          Prosjekter
-        </h2>
-        <div className="CARDS flex flex-wrap justify-center gap-8 xl:max-w-7xl xl:justify-start">
+      <div className="CONTENT flex flex-col gap-6 px-6 py-8 md:mx-auto  md:items-center  ">
+        <div className="HEADER lg: flex w-full justify-start ">
+          <h2 className="text-[#8a8a8a] ">Prosjekter</h2>
+        </div>
+        <div className="CARDS grid w-full justify-center gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <Card
             image={bfnr}
             link={"https://medlemsliste.bfnr.no/"}
