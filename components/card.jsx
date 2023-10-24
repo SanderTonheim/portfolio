@@ -12,8 +12,8 @@ export const Card = ({ image, link, projectName, projectFor }) => {
     <Link
       ref={ref}
       href={link}
-      className={` justify-center flex h-80 w-full flex-col items-center bg-[#222222]/40  ${
-        isVisible ? "animate-fade-down backdrop-blur-md" : ""
+      className={` flex h-80 w-full flex-col items-center justify-center bg-neutral-900/10  ${
+        isVisible ? "animate-fade-down backdrop-blur-[10px]" : ""
       } 
         `}
     >

@@ -6,7 +6,10 @@ import { Card } from "./card";
 
 export default function Projects() {
   return (
-    <section id="projects" className='CONTAINER bg-[url("../assets/bg.jpg")] px-6 py-8 '>
+    <section
+      id="projects"
+      className='CONTAINER bg-[url("../assets/bg.jpg")] px-10 py-20 bg-black bg-center bg-no-repeat'
+    >
       <div className="CONTENT flex max-w-7xl flex-col gap-6   md:mx-auto md:items-center ">
         <div className="HEADER lg: flex w-full justify-start ">
           <h2 className="text-[#8a8a8a] ">Prosjekter</h2>

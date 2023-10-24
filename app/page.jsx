@@ -1,13 +1,13 @@
-import About from '@/components/about'
-import Header from '@/components/header'
-import Projects from '@/components/projects'
+import About from "@/components/about";
+import Header from "@/components/header";
+import Projects from "@/components/projects";
 
 export default function Home() {
-	return (
-		<>
-			<Header />
-			<About />
-			<Projects />
-		</>
-	)
+  return (
+    <>
+      <Header />
+      <About />
+      <Projects />
+    </>
+  );
 }
