@@ -7,7 +7,7 @@ import { Card } from "./card";
 export default function Projects() {
   return (
     <section className='CONTAINER bg-[url("../assets/bg.jpg")] '>
-      <div className="CONTENT flex flex-col gap-6 px-6 py-8 md:mx-auto  md:items-center  ">
+      <div className="CONTENT flex max-w-7xl flex-col gap-6 px-6 py-8  md:mx-auto md:items-center ">
         <div className="HEADER lg: flex w-full justify-start ">
           <h2 className="text-[#8a8a8a] ">Prosjekter</h2>
         </div>
