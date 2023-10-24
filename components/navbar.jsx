@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import menuIcon from "@/assets/menu.svg";
 import logo from "@/assets/logo.svg";
 import close from "@/assets/close.png";
+import Link from "next/link";
 
 export default function Navbar() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -40,9 +41,16 @@ export default function Navbar() {
               showSidebar ? "animate-fade-down animate-delay-300" : ""
             }`}
           >
-            <li>Topp</li>
-            <li>Prosjekter</li>
-            <li>Github</li>
+            <Link onClick={() => setShowSidebar(!showSidebar)} href="#projects">
+              Prosjekter
+            </Link>
+            <Link
+              onClick={() => setShowSidebar(!showSidebar)}
+              href={"https://github.com/SanderTonheim"}
+              target="_blank"
+            >
+              Github
+            </Link>
           </ul>
         </section>
       </nav>
